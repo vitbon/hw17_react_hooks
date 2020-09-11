@@ -27,7 +27,7 @@ ReactDOM.render(
       autoStart={true}
       infinity={true}
       from={60}
-      interval={45}
+      interval={100}
     />
   </React.StrictMode>,
   document.getElementById('root')

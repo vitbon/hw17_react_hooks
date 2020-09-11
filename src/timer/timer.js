@@ -9,7 +9,7 @@ export default class Timer extends Component {
     beginDate: Date.now(),   // begin Date.now()
     autoStart: false,
     infinity: true,          // infinity circle
-    pause: false,             // paused State
+    pause: false,            // paused State
     action: false,           // is timer work?
     waitingDate: 0,          // paused Date
     electron: '00',
@@ -37,9 +37,6 @@ export default class Timer extends Component {
 
   initClock = async () => {
     if (this.state.action && !this.state.pause) {  // resume start
-      // this.setState((prevState) => {
-      //   return { waitingDate: Date.now() }
-      // });
       await this.setState({waitingDate: Date.now()});
       await this.setState({startButton: "Start"});
       await this.setState({pause: true});
