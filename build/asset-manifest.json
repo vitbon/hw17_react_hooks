@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hw17_react_hooks/static/css/main.e23b3035.chunk.css",
+    "main.js": "/hw17_react_hooks/static/js/main.1e03ca80.chunk.js",
+    "main.js.map": "/hw17_react_hooks/static/js/main.1e03ca80.chunk.js.map",
+    "runtime-main.js": "/hw17_react_hooks/static/js/runtime-main.7e71d53e.js",
+    "runtime-main.js.map": "/hw17_react_hooks/static/js/runtime-main.7e71d53e.js.map",
+    "static/js/2.5b3596ef.chunk.js": "/hw17_react_hooks/static/js/2.5b3596ef.chunk.js",
+    "static/js/2.5b3596ef.chunk.js.map": "/hw17_react_hooks/static/js/2.5b3596ef.chunk.js.map",
+    "index.html": "/hw17_react_hooks/index.html",
+    "precache-manifest.b0d63cf48119fd7a9ee95103f69d326a.js": "/hw17_react_hooks/precache-manifest.b0d63cf48119fd7a9ee95103f69d326a.js",
+    "service-worker.js": "/hw17_react_hooks/service-worker.js",
+    "static/css/main.e23b3035.chunk.css.map": "/hw17_react_hooks/static/css/main.e23b3035.chunk.css.map",
+    "static/js/2.5b3596ef.chunk.js.LICENSE.txt": "/hw17_react_hooks/static/js/2.5b3596ef.chunk.js.LICENSE.txt",
+    "static/media/timer.css": "/hw17_react_hooks/static/media/digital_mono.58045dab.ttf",
+    "static/media/logo.svg": "/hw17_react_hooks/static/media/logo.5d5d9eef.svg",
+    "static/media/teddy_alert.mp3": "/hw17_react_hooks/static/media/teddy_alert.f23c27e5.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e71d53e.js",
+    "static/js/2.5b3596ef.chunk.js",
+    "static/css/main.e23b3035.chunk.css",
+    "static/js/main.1e03ca80.chunk.js"
+  ]
+}
