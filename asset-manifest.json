@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hw17_react_hooks/static/css/main.8030e14a.chunk.css",
+    "main.css": "/hw17_react_hooks/static/css/main.b2bb5cb8.chunk.css",
     "main.js": "/hw17_react_hooks/static/js/main.3e05c4a2.chunk.js",
     "main.js.map": "/hw17_react_hooks/static/js/main.3e05c4a2.chunk.js.map",
     "runtime-main.js": "/hw17_react_hooks/static/js/runtime-main.7e71d53e.js",
@@ -8,9 +8,9 @@
     "static/js/2.5b3596ef.chunk.js": "/hw17_react_hooks/static/js/2.5b3596ef.chunk.js",
     "static/js/2.5b3596ef.chunk.js.map": "/hw17_react_hooks/static/js/2.5b3596ef.chunk.js.map",
     "index.html": "/hw17_react_hooks/index.html",
-    "precache-manifest.639e7d0ad6316229c0b8d6c0a96396d0.js": "/hw17_react_hooks/precache-manifest.639e7d0ad6316229c0b8d6c0a96396d0.js",
+    "precache-manifest.898c32c9fc818d6a37160de50e94eb92.js": "/hw17_react_hooks/precache-manifest.898c32c9fc818d6a37160de50e94eb92.js",
     "service-worker.js": "/hw17_react_hooks/service-worker.js",
-    "static/css/main.8030e14a.chunk.css.map": "/hw17_react_hooks/static/css/main.8030e14a.chunk.css.map",
+    "static/css/main.b2bb5cb8.chunk.css.map": "/hw17_react_hooks/static/css/main.b2bb5cb8.chunk.css.map",
     "static/js/2.5b3596ef.chunk.js.LICENSE.txt": "/hw17_react_hooks/static/js/2.5b3596ef.chunk.js.LICENSE.txt",
     "static/media/timer.css": "/hw17_react_hooks/static/media/digital_mono.58045dab.ttf",
     "static/media/logo.svg": "/hw17_react_hooks/static/media/logo.5d5d9eef.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.7e71d53e.js",
     "static/js/2.5b3596ef.chunk.js",
-    "static/css/main.8030e14a.chunk.css",
+    "static/css/main.b2bb5cb8.chunk.css",
     "static/js/main.3e05c4a2.chunk.js"
   ]
 }
