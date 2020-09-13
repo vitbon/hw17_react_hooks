@@ -31,12 +31,17 @@ export default class Timer extends Component {
   };
 
   componentWillUnmount = () => {
-    clearInterval(this.interval);
+    clearInterval(this.intervalID);
     this.setState({action: false});
   };
 
+  onTimeEnd= () => console.log("Час вийшов!");
+  onTimeStart=() => console.log("Таймер запущено!");
+  onTimePause=() => console.log("Таймер на паузі!");
+
   initClock = async () => {
     if (this.state.action && !this.state.pause) {  // resume start
+      this.onTimePause()
       await this.setState({waitingDate: Date.now()});
       await this.setState({startButton: "Start"});
       await this.setState({pause: true});
@@ -49,6 +54,7 @@ export default class Timer extends Component {
         await this.setState({startButton: "Pause"});
         await this.setState({pause: false});
       } else { // init
+          this.onTimeStart();
           await this.setState({beginDate: Date.now()});
           await this.setState({startButton: "Pause"});
           await this.setState({action: true});
@@ -58,8 +64,9 @@ export default class Timer extends Component {
       this.setState({
         intervalID: setInterval(async () => {
           this.calcElectron();
-          const curTime = Date.now() - this.state.waitingDate - this.state.beginDate;
+          const curTime = Date.now() - this.state.beginDate;
           if (curTime > this.state.from * 1000) {
+            this.onTimeEnd();
             if (this.state.infinity) {
                this.setState({beginDate: Date.now()});
                this.setState({pause: 0});
@@ -139,7 +146,7 @@ export default class Timer extends Component {
               {this.state.electron}
             </span>
             <label className="inputCD">
-              Countdown (s):<br/>
+              Timer (s):<br/>
               <input id="countDown_btn" type="number" min="1" max="99"
                      value={this.state.from}
                      onChange={this.countDownButton}>

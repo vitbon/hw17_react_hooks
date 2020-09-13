@@ -41,12 +41,11 @@ svg {
   stroke: orange;
   fill: #0c110c;
   stroke-linecap: round;
-  stroke-dasharray: calc(6.2831852*100);
+  stroke-dasharray: 628.31852;
   stroke-dashoffset: 0;
 }
 
 .count-down {
-  left: -100px;
   position: relative;
   user-select: none;
 }
@@ -93,7 +92,7 @@ svg {
   font-size: 16px;
   color: #888;
   top: 10px;
-  left: 300px;
+  left: 270px;
   width: 120px;
   position: absolute;
 }
@@ -102,7 +101,7 @@ svg {
   font-size: 16px;
   color: #888;
   top: 70px;
-  left: 300px;
+  left: 270px;
   width: 120px;
   position: absolute;
 }
@@ -118,7 +117,7 @@ svg {
 
 .start_btn {
   top: 150px;
-  left: 270px;
+  left: 240px;
   height: 43px;
   width: 125px;
   margin: 0 10px;
